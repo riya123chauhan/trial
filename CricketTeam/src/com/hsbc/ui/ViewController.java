@@ -12,6 +12,7 @@ import com.hsbc.util.ObjectFactory;
 public class ViewController {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		System.out.println("Hello ");
 		int menuOption = 0;
 		PlayerDao dao = ObjectFactory.getPlayerDao();
 		do {
